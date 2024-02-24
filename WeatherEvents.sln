@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherEvents", "WeatherEvents\WeatherEvents.csproj", "{928A57EA-00FA-495A-831D-5029CEB8E63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{013A11B3-E048-4EDF-A83C-9F2241DC6B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules", "WeatherStation\Modules.csproj", "{7208356C-B1E4-4DE8-B380-E3205E2030AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{928A57EA-00FA-495A-831D-5029CEB8E63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928A57EA-00FA-495A-831D-5029CEB8E63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928A57EA-00FA-495A-831D-5029CEB8E63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928A57EA-00FA-495A-831D-5029CEB8E63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013A11B3-E048-4EDF-A83C-9F2241DC6B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013A11B3-E048-4EDF-A83C-9F2241DC6B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013A11B3-E048-4EDF-A83C-9F2241DC6B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013A11B3-E048-4EDF-A83C-9F2241DC6B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7208356C-B1E4-4DE8-B380-E3205E2030AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7208356C-B1E4-4DE8-B380-E3205E2030AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7208356C-B1E4-4DE8-B380-E3205E2030AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7208356C-B1E4-4DE8-B380-E3205E2030AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {792A792A-6137-442E-83DE-9D110A60E291}
+	EndGlobalSection
+EndGlobal
